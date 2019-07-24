@@ -9,7 +9,7 @@ type: panos
 extends:
 labels:
   collection:
-    - MobileSkillet
+    - SafeNetworking
 # end of preamble section
 # ---------------------------------------------------------------------
 # variables section
