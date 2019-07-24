@@ -38,9 +38,9 @@ variables:
 # files will load in the order listed
 snippets:
 #
- - name: Objects
-   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/address
-   file: AddrObject.xml
+# - name: Objects
+#   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/address
+#   file: AddrObject.xml
 
  - name: SFNServerProfile
    xpath: /config/shared/log-settings/syslog
@@ -54,25 +54,25 @@ snippets:
    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/zone
    file: Zone.xml
 
- - name: DiskLogQuotaAndEnableSCTPGTP
-   xpath: /config/devices/entry[@name='localhost.localdomain']/deviceconfig
-   file: DiskLogQuotaAndEnableSCTPGTP.static.xml
-
- - name: ZoneProtect_IPOnly
-   xpath: /config/devices/entry[@name='localhost.localdomain']/network/profiles/zone-protection-profile
-   file: ZoneProtectIPOnly.static.xml
-
- - name: GTPProfile
-   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/gtp
-   file: GTPProfileLogTunnel.static.xml
-
- - name: SCTPProfile
-   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/sctp
-   file: SCTPProfileCommonS6SS7.static.xml
-
- - name: VulnProfile_FloodAndBrute
-   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/vulnerability
-   file: VulnProfile_FloodAndBrute.static.xml
+# - name: DiskLogQuotaAndEnableSCTPGTP
+#   xpath: /config/devices/entry[@name='localhost.localdomain']/deviceconfig
+#   file: DiskLogQuotaAndEnableSCTPGTP.static.xml
+#
+# - name: ZoneProtect_IPOnly
+#   xpath: /config/devices/entry[@name='localhost.localdomain']/network/profiles/zone-protection-profile
+#   file: ZoneProtectIPOnly.static.xml
+#
+# - name: GTPProfile
+#   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/gtp
+#   file: GTPProfileLogTunnel.static.xml
+#
+# - name: SCTPProfile
+#   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/sctp
+#   file: SCTPProfileCommonS6SS7.static.xml
+#
+# - name: VulnProfile_FloodAndBrute
+#   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/vulnerability
+#   file: VulnProfile_FloodAndBrute.static.xml
 
  - name: SFNForwardingProfile
    xpath: /config/shared/log-settings/profiles
