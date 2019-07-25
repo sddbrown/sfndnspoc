@@ -21,8 +21,8 @@ variables:
 #   default: 100.64.0.0/16
 #   type_hint: text
 
- - name: SFN35ServerIP
-   description: IP address of SFN3.5 Server
+ - name: SFNServerIP
+   description: IP address of SFN Server
    default: 10.0.0.1
    type_hint: text
 
