@@ -1,10 +1,10 @@
 # ---------------------------------------------------------------------
 # skillet preamble information used by panhandler
 # unique snippet name
-name: sfndnspoc
+name: SFNDNSPOC
 # label used for menu selection
-label: TAP Mode PoC
-description: Generic config for TAP mode to start a PoC
+label: TAP Mode PoC for DNS
+description: Configure TAP Mode POC for use with SFN 4.0
 type: panos
 extends:
 labels:
