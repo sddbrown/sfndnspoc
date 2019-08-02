@@ -47,7 +47,7 @@ snippets:
    file: Zone.xml
 
  - name: Spyware
-   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/spyware
+   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles
    file: spyware.xml
 
  - name: SFNForwardingProfile
