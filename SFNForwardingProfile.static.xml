@@ -13,7 +13,7 @@
          <member>SafeNetServer</member>
        </send-syslog>
        <log-type>url</log-type>
-       <filter>category eq high-risk) and (category eq malware) and (category eq newly-registered-domain) and (category eq phishing)</filter>
+       <filter>category eq high-risk) and (category eq malware) and (category eq phishing)</filter>
        <send-to-panorama>no</send-to-panorama>
      </entry>
    </match-list>
