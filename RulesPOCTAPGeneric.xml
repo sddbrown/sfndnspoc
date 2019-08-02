@@ -32,4 +32,11 @@
   <rule-type>universal</rule-type>
   <disabled>no</disabled>
   <log-setting>SafeNetworking</log-setting>
+  <profile-setting>
+    <profiles>
+      <spyware>
+        <member>SafeNet</member>
+      </spyware>
+    </profiles>
+  </profile-setting>
 </entry>
