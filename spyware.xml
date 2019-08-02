@@ -1,0 +1,77 @@
+      <spyware>
+        <entry name="SafeNet">
+          <botnet-domains>
+            <lists>
+              <entry name="default-paloalto-dns">
+                <packet-capture>disable</packet-capture>
+                <action>
+                  <alert/>
+                </action>
+              </entry>
+              <entry name="default-paloalto-cloud">
+                <packet-capture>disable</packet-capture>
+                <action>
+                  <alert/>
+                </action>
+              </entry>
+            </lists>
+          </botnet-domains>
+          <rules>
+            <entry name="simple-critical">
+              <action>
+                <default/>
+              </action>
+              <severity>
+                <member>critical</member>
+              </severity>
+              <threat-name>any</threat-name>
+              <category>any</category>
+              <packet-capture>disable</packet-capture>
+            </entry>
+            <entry name="simple-high">
+              <action>
+                <default/>
+              </action>
+              <severity>
+                <member>high</member>
+              </severity>
+              <threat-name>any</threat-name>
+              <category>any</category>
+              <packet-capture>disable</packet-capture>
+            </entry>
+            <entry name="simple-medium">
+              <action>
+                <default/>
+              </action>
+              <severity>
+                <member>medium</member>
+              </severity>
+              <threat-name>any</threat-name>
+              <category>any</category>
+              <packet-capture>disable</packet-capture>
+            </entry>
+            <entry name="simple-low">
+              <action>
+                <default/>
+              </action>
+              <severity>
+                <member>low</member>
+              </severity>
+              <threat-name>any</threat-name>
+              <category>any</category>
+              <packet-capture>disable</packet-capture>
+            </entry>
+            <entry name="simple-informational">
+              <action>
+                <default/>
+              </action>
+              <severity>
+                <member>informational</member>
+              </severity>
+              <threat-name>any</threat-name>
+              <category>any</category>
+              <packet-capture>disable</packet-capture>
+            </entry>
+          </rules>
+        </entry>
+      </spyware>
