@@ -27,10 +27,6 @@
     <member>any</member>
   </hip-profiles>
   <action>allow</action>
-  <profile-setting>
-    <profiles>
-    </profiles>
-  </profile-setting>
   <log-start>no</log-start>
   <log-end>no</log-end>
   <rule-type>universal</rule-type>
