@@ -8,7 +8,8 @@ add or If you can not access it create your own repo and push the archive that c
 
 ## What this Skillet will do
 * Configure Syslog Profile for SafeNetworking Server
-* Configure Interafce for TAP Mode - 
+* Configure Interafce for TAP Mode -
+
 **Make Sure this is connected to your customers SPAN port and they are mirroring DNS traffic**
 * Configure TAP Zone 
 * Configure Spyware Profile with DNS Alerting  *You must have a DNS Security Subscription for this to work.*
