@@ -78,6 +78,6 @@ snippets:
    xpath: /config/shared/log-settings/profiles
    file: SFNForwardingProfile.static.xml
 
- #- name: Rules
- #  xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security/rules
- #  file: RulesPOCTAPGeneric.xml
+ - name: Rules
+   xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security/rules
+   file: RulesPOCTAPGeneric.xml
