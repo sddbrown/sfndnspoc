@@ -1,6 +1,6 @@
 <entry name="SafeNetServer">
    <server>
-     <entry name="SFN35_threat">
+     <entry name="SFN40_threat">
        <transport>UDP</transport>
        <port>5514</port>
        <format>BSD</format>
