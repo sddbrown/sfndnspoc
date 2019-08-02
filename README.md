@@ -1,7 +1,7 @@
 # sfndnspoc
 Skillet to automate the deployment of a DNS based SafeNetworking POC in TAP Mode
 
-1.) Configure Syslog Profile for SafeNetworking Server
+1.) Configure Syslog Profile for SafeNetworking Server\n
 2.) Configure Interafce for TAP Mode - Make Sure this is connected to your customers SPAN port and they are mirroring DNS traffic
 3.) Configure TAP Zone 
 4.) Configure Spyware Profile with DNS Alerting - You must have a DNS Security Subscription for this to work.
