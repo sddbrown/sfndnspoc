@@ -8,12 +8,12 @@
             <alert/>
           </action>
         </entry>
-#        <entry name="default-paloalto-cloud">
-#         <packet-capture>disable</packet-capture>
-#          <action>
-#            <alert/>
-#          </action>
-#        </entry>
+        <entry name="default-paloalto-cloud">
+         <packet-capture>disable</packet-capture>
+          <action>
+            <alert/>
+          </action>
+        </entry>
       </lists>
     </botnet-domains>
     <rules>
