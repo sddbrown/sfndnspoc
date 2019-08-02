@@ -1,4 +1,4 @@
-<entry name="TAP--DNS">
+<entry name="TAP_DNS">
   <to>
     <member>any</member>
   </to>
