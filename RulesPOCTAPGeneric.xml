@@ -1,4 +1,4 @@
-<entry name="TAP DNS TRAFFOC">
+<entry name="TAP_TRAFFIC">
   <to>
     <member>any</member>
   </to>
@@ -29,12 +29,6 @@
   <action>allow</action>
   <profile-setting>
     <profiles>
-#      <gtp>
-#        <member>GTP__Common_LogTun</member>
-#      </gtp>
-#      <vulnerability>
-#        <member>flood-and-bruteforce</member>
-#      </vulnerability>
     </profiles>
   </profile-setting>
   <log-start>no</log-start>
