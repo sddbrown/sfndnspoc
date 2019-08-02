@@ -24,7 +24,7 @@ variables:
  - name: SFNServerIP
    description: IP address of SFN Server
    default: 10.0.0.1
-   type_hint: text
+   type_hint: ip_address
 
  - name: TAPNIC
    description: Interface for TAP zone
