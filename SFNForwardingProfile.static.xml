@@ -1,22 +1,19 @@
-<entry name="gtptoSFN35">
+<entry name="SafeNetworking">
    <match-list>
-       <entry name="SFN35_gtp">
+       <entry name="threat_to_sfn">
        <send-syslog>
-         <member>gtptoSFN35</member>
-       </send-syslog>
-       <log-type>gtp</log-type>
-       <filter>All Logs</filter>
-       <send-to-panorama>no</send-to-panorama>
-     </entry>
-   </match-list>
-</entry><entry name="threattoSFN35">
-   <match-list>
-       <entry name="SFN35_threat">
-       <send-syslog>
-         <member>threattoSFN35</member>
+         <member>SafeNetServer</member>
        </send-syslog>
        <log-type>threat</log-type>
        <filter>All Logs</filter>
+       <send-to-panorama>no</send-to-panorama>
+     </entry>
+       <entry name="urllogs_to_sfn">
+       <send-syslog>
+         <member>SafeNetServer</member>
+       </send-syslog>
+       <log-type>url</log-type>
+       <filter>category eq high-risk) and (category eq malware) and (category eq newly-registered-domain) and (category eq phishing)</filter>
        <send-to-panorama>no</send-to-panorama>
      </entry>
    </match-list>
