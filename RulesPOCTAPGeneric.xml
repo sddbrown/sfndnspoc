@@ -38,7 +38,7 @@
         <member>SafeNet</member>
       </spyware>
       <wildfire-analysis>
-        <member>defalut</member>
+        <member>default</member>
       </wildfire-analysis>
     </profiles>
   </profile-setting>
